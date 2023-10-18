@@ -17,12 +17,11 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
   align-items: center;
-  
 }
 
 h1,
@@ -60,25 +59,24 @@ ol {
 }
 
 .content__list {
-overflow: auto;
-position: relative;
-height: 298px;
+  overflow: auto;
+  position: relative;
+  height: 298px;
 }
 
 .content__list::-webkit-scrollbar {
   display: none;
 }
 
-
 .title {
   padding-bottom: 30px;
-  color: #FFF;
-font-family: Oswald;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: 94%;
-text-transform: uppercase;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
 }
 
 .result {
@@ -87,12 +85,12 @@ text-transform: uppercase;
 
 .content__accent {
   color: #545050;
-font-family: Oswald;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: 94%; /* 70.5px */
-text-transform: uppercase;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%; /* 70.5px */
+  text-transform: uppercase;
 }
 
 .result__video-container {
@@ -130,23 +128,28 @@ text-transform: uppercase;
 }
 
 .content__video-card-title {
-  color: #FFF;
-font-family: Oswald;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%; /* 30px */
-text-transform: uppercase;
-padding: 6px 2px 5px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
+  padding: 6px 2px 5px;
 }
 
+.content__details {
+  inline-size: 100%;
+}
+
+
 .content__video-card-description {
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 16.2px; /* 90% */
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.2px; /* 90% */
 }
 
 .content__card-link {
@@ -156,22 +159,22 @@ line-height: 16.2px; /* 90% */
 }
 
 .search-form__fieldset-title {
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search-form__label-text {
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-cursor: pointer;
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -192,36 +195,35 @@ cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: fit-content;
-justify-content: space-between;
-
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: fit-content;
+  justify-content: space-between;
 }
 
 .search-form__textfield {
-background-color: transparent;
-min-width: 225px;
-color: inherit;
-font-family: inherit;
-font-size: inherit;
-border-right: none;
-border-left: none;
-border-top: 1px solid #FFF;
-border-bottom: 1px solid #FFF;
+  background-color: transparent;
+  min-width: 225px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .search-form__textfield::placeholder {
-  color: rgba(255, 255, 255, 0.70);
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search-form__checkbox-list {
@@ -233,22 +235,22 @@ line-height: normal;
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   margin-right: 5px;
   cursor: pointer;
 }
 
 .button {
-  color: #FFF;
-text-align: center;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border: 1px solid #FFF;
-background-color: transparent;
-cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .search-form__submit-button {
@@ -264,16 +266,16 @@ cursor: pointer;
 
 .more-button {
   display: flex;
-width: 399px;
-height: 34px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
+  width: 399px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .search-form__textfield:focus {
-outline: none;
+  outline: none;
 }
 
 .search-form__textfield:focus-visible {
@@ -281,12 +283,12 @@ outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
 .search-form__textfield:active {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
 }
 
 .search-form__label-text:hover {
@@ -294,8 +296,8 @@ outline: none;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: '';
-  background-color: #FFF;
+  content: "";
+  background-color: #fff;
   width: 15px;
   height: 15px;
   margin: 1px 0px 0px 1px;
@@ -311,12 +313,12 @@ outline: none;
 }
 
 .button:focus {
-outline: none;
+  outline: none;
 }
 
-.button:active { 
- border: 1px solid #FFF;
-background: #545050;
+.button:active {
+  border: 1px solid #fff;
+  background: #545050;
 }
 
 .button:hover {
@@ -324,7 +326,7 @@ background: #545050;
 }
 
 .button:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
@@ -337,10 +339,9 @@ background: #545050;
 }
 
 .content__card-link:hover {
-  text-decoration: underline 1px #FFF;
+  text-decoration: underline 1px #fff;
 }
 
 .content__card-link:focus-visible {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
-
