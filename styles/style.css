@@ -67,9 +67,6 @@ ol {
   height: 298px;
 }
 
-.content__list::-webkit-scrollbar {
-  display: none;
-}
 
 .title {
   padding-bottom: 20px;
