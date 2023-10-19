@@ -45,16 +45,13 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin: 0px 30px;
+  margin: -35px 30px 0px;
   gap: 30px;
 }
 
 .page {
   display: flex;
   align-items: center;
-  margin: auto;
 }
 
 .search-form {
@@ -75,7 +72,7 @@ ol {
 }
 
 .title {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #fff;
   font-family: Oswald, serif;
   font-size: 75px;
@@ -86,7 +83,7 @@ ol {
 }
 
 .result {
-  padding-top: 78px;
+  align-self: flex-end;
 }
 
 .content__accent {
@@ -95,12 +92,11 @@ ol {
 
 .result__video-container {
   width: 711px;
-  height: 386px;
   position: relative;
-  margin-bottom: 16px;
+  height: 386px;
 }
 
-.result-video {
+.result__video {
   object-fit: cover;
   object-position: center;
   width: 100%;
@@ -141,13 +137,12 @@ ol {
   padding: 6px 2px 5px;
   text-overflow: ellipsis;
   white-space: nowrap;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .content__details {
   inline-size: 100%;
 }
-
 
 .content__video-card-description {
   color: #fff;
@@ -157,14 +152,18 @@ ol {
   font-weight: 400;
   line-height: 16.2px; /* 90% */
   text-overflow: ellipsis;
-   white-space: nowrap;
-    overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__card-link {
   text-decoration: none;
   display: block;
   margin: 2px;
+}
+
+.search-form {
+  margin-top: 15px;
 }
 
 .search-form__fieldset-title {
@@ -174,6 +173,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 5px;
 }
 
 .search-form__label-text {
@@ -238,7 +238,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 11px;
 }
 
 .search-form__pseudo-checkbox {
@@ -270,6 +270,7 @@ ol {
   width: 194px;
   height: 34px;
   align-self: flex-end;
+  padding-top: 5px;
 }
 
 .more-button {
@@ -294,7 +295,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   background-color: #fff;
@@ -304,10 +304,9 @@ ol {
   display: block;
 }
 
-.search-form__label-text:hover{
+.search-form__label-text:hover {
   text-decoration: underline;
 }
-
 
 .button:focus {
   outline: none;
