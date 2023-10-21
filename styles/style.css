@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 html {
   block-size: 100%;
 }
@@ -44,15 +40,25 @@ ol {
 }
 
 .content {
-  display: flex;
-  margin-left: 30px;
   gap: 30px;
-  padding-bottom: 85px;
+  width: 100%;
+  display: inline-flex;
+  padding: 133px 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .page {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
+  width: 1200px;
+  block-size: 100%;
 }
 
 .search-form {
@@ -67,7 +73,6 @@ ol {
   position: relative;
   height: 298px;
 }
-
 
 .title {
   padding-bottom: 20px;
@@ -145,7 +150,7 @@ ol {
 
 .content__video-card-description {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -167,7 +172,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +182,7 @@ ol {
 
 .search-form__label-text {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -204,7 +209,7 @@ ol {
   flex-direction: row;
   align-items: center;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -226,7 +231,7 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -250,7 +255,7 @@ ol {
 .button {
   color: #fff;
   text-align: center;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -311,7 +316,6 @@ ol {
 }
 
 .button:active {
-  border: 1px solid #fff;
   background: #545050;
 }
 
